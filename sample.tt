@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="./css/hello.css" type="text/css" />
+		<title>Hello, NIFTYCloud C4SA!</title>
+	</head>
+    <div class="content">
+	<body>
+		<h1>Hello, NIFTYCloud C4SA!</h1>
+<p>
+[% date %]にHello, NIFTYCloud C4SAしました。<br>
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-url="http://[% server %]" data-text="[% date %]にHello, NIFTYCloud C4SAしました。" data-count="none" data-hashtags="niftycloudc4sa" data-related="niftycloud_c4sa:NIFTYCloud C4SA">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</p>
+      <h2>ニフティクラウドC4SAでできること</h2>
+<p>
+　ニフティクラウドC4SAは、 <strong>サーバーからミドルウェアまで</strong>をオンデマンドで提供している、<br>
+<strong>アプリケーションプラットフォーム</strong>です。
+</p>
+
+<h3>用途に合わせた環境を、クリックだけですぐに構築できます</h3>
+<p>
+　お客様の用途に合わせた最適なアプリケーション実行環境をワンクリックで構築できます。<br>
+　ニフティクラウドC4SAを用いることで、環境構築の時間を節約し、思いついたアイデアを<br>
+すぐ開発して形にし、インターネット上で公開することが可能です。<br>
+<img src="./img/select_context.png" alt="C4SAには様々なコンテクストがあります。">
+</p>
+
+<h3>インフラの管理・運用を意識せずに利用可能です</h3>
+<p>
+　ニフティクラウドC4SA上では、複雑なサーバーの構築作業、設定などは不要です。<br>
+アプリケーションの開発に集中したい方や、サーバーやネットワークの知識がない方も、<br>
+ニフティクラウドC4SAを利用して、アプリケーションの開発などを行うことができます。<br>
+</p>
+
+<h2>ニフティクラウドC4SAの特徴</h2>
+
+<h3>短時間で簡単に環境構築が可能</h3>
+<p>
+　名前の入力や環境の選択などの簡単な操作のみで、<br>
+ログインから環境構築までの数ステップを完了し、環境構築することができます。<br>
+<img src="./img/setting_flow.png" alt="数ステップで環境構築が可能">
+</p>
+
+<h3>多数の言語・フレームワーク・アプリケーションを提供 </h3>
+<p>
+　ニフティクラウドC4SAでは、以下のように多数の言語、フレームワーク、アプリケーションを<br>
+提供しており、今後もさまざまな環境をコンテクストとして提供する予定です。<br>
+<div class="table">
+<table border="1">
+<caption>ニフティクラウドC4SAのコンテクスト一覧</caption>
+<tr>
+<th>コンテクストの分類</th><th>ニフティクラウドC4SAのコンテクスト</th>
+</tr>
+<tr>
+<td>言語</td><td> PHP, Ruby, Python, Perl</td>
+</tr>
+<tr>
+<td>フレームワーク</td><td>Ruby ono Rails, CakePHP, Django</td>
+</tr>
+<tr>
+<td>アプリケーション</td><td>PukiWiki, WordPress, Concrete5, CandyCane</td>
+</tr>
+</table>
+
+(2012年7月31日時点、今後拡充予定)<br>
+</div>
+<br>
+<a href="https://github.com/NIFTYCloud-C4SA/support/wiki/%E3%83%8B%E3%83%95%E3%83%86%E3%82%A3%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89C4SA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-%E7%94%A8%E8%AA%9E%E9%9B%86">「コンテクスト」とは</a>
+
+<h3>アプリケーションのスケールアップが可能</h3>
+<p>
+ ニフティクラウドC4SAのキャンバス内にある「キャンバス情報」パネルから、構築した環境の<br>
+ディスク容量、メモリ容量をクリック1つで変更することができます。<br>
+また、ニフティクラウドストレージとの連携も可能となっています。<br>
+<img src="./img/scale_up.png" alt="C4SAはスケールアップとニフティクラウドストレージとの連携が可能">
+
+<a href="https://github.com/NIFTYCloud-C4SA/support/wiki/%E3%83%8B%E3%83%95%E3%83%86%E3%82%A3%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89C4SA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-%E7%94%A8%E8%AA%9E%E9%9B%86">「キャンバス」とは</a>
+
+<h3>共同開発が可能なコラボレーション機能</h3>
+<p>  
+1つのキャンバスに複数の利用者を登録することで、アプリケーションの共同開発などが可能です。<br>
+Gitとの連携にも対応しており、バージョン管理もしっかり行えます。
+</p>
+
+<h3>高性能なIaaSを利用したサービスの提供</h3>
+<p>
+ニフティクラウドC4SAは、ニフティが提供している高性能・高信頼性のIaaSサービスである、<br>
+「ニフティクラウド」上で運用されています。安定したインフラの上で、  
+さまざまな規模のアプリケーションを開発・公開することが可能です。
+</p>
+
+<h2>ニフティクラウドC4SAの仕組み</h2>
+<p>
+<img src="./img/c4sa.png" alt="ニフティクラウドC4SAの仕組み図"><br>
+　上の図が、ニフティクラウドC4SAの概念図となります。<br>
+ニフティクラウドC4SAはニフティのIaaSであるニフティクラウドを基盤として利用し、<br>
+仮想的なアプリケーション実行環境を構築します。<br>
+ロードバランサーやプロキシサーバーを利用することで、<br>
+ハードウェアの冗長化や負荷分散、キャッシュによる高速化などが行われています。<br>
+<br>
+　アプリケーションの開発などを行う環境はキャンバスと呼ばれます。<br>
+　キャンバスの作成時にはコンテクストと呼ばれる<br>
+サーバーやデータベースなどの設定集をアサインします。<br>
+<br>
+　コンテクストがアプライアンスと呼ばれる<br>
+サーバーやデータベース、ファイル操作などの各機能にアクセスすることで、<br>
+アプリケーション実行環境が構築されています。<br>
+
+<a href="https://github.com/NIFTYCloud-C4SA/support/wiki/%E3%83%8B%E3%83%95%E3%83%86%E3%82%A3%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%89C4SA%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-%E7%94%A8%E8%AA%9E%E9%9B%86">「アプライアンス」とは</a>
+</p>
+	</body>
+  </div>
+</html>
